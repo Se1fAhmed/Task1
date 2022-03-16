@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./bg2.jpg) ;
+    background-size: 100% 100% ;
+}
+.home .nav{
+    background-color: rgba(0, 0, 0,0.7);
+    overflow: auto;
+}
+.home .nav ul{
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.home .nav ul li{
+    float: left;
+    margin: 18px 10px 0px;
+}
+.home .nav ul .Logo{
+    float: right;
+    margin-bottom:5px ; 
+    margin-top: 15px;
+}
+
+.home .nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    transition: 0.2s;
+}
+.home .nav ul li .A:hover{
+    border-bottom: 2px solid #ff0000;
+    border-radius: 5px;
+    padding: 2px;
+}
+.home .nav ul li img{
+   width: 100px;
+}
+.home .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 9, 30, 0.7);
+}
+/* End nav bar */
+/* start login */
+.home .form{
+    width: 300px;
+    margin: 150px auto;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    box-shadow: 15px 15px 10px black;
+}
+.home .form h1{
+    color: white;
+    font-weight: 500;
+}
+.home .form input{
+    background: none;
+    margin: 10px auto ;
+    text-align: center;
+    border: 2px solid #ff0000;
+    padding: 14px 10px;
+    width: 200px;
+    color: white;
+    border-radius: 24px;
+    outline-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.home .form input:hover{
+    /* transform: scale(1.4,1); */
+    width: 280px;
+    
+}
+.home .form button{
+    background: none;
+    margin: 10px auto 20px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    padding: 14px 10px;
+    width: 100px;
+    color: white;
+    border-radius: 24px; 
+}
+.home .form button:hover{
+    background: #ff0000;
+}
+.home .form p{
+    color: white;
+}
+.home .form a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+
+}
+/* end login */
